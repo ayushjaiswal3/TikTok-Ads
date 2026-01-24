@@ -138,4 +138,34 @@ To stay within the scope of this frontend assignment, OAuth and API responses ar
 - Clear UX for failures and retries
 
 
+## Assumptions and Shortcuts Taken
+
+The following assumptions and shortcuts were taken intentionally to stay within the scope of this frontend-focused assignment:
+
+- TikTok Ads APIs are mocked, as real API integration requires backend services and verified credentials.
+- OAuth Authorization Code flow is simulated to demonstrate frontend OAuth handling without a backend.
+- No real TikTok Developer account or Ads account is required.
+- No real media file upload is performed; music upload is simulated using generated IDs.
+- Token storage uses Redux and localStorage for simplicity.
+- Geo-restriction errors are simulated using controlled token values.
+- Error responses are deterministic to ensure predictable behavior during review and demo.
+- Visual styling is kept minimal to focus on logic, validation, and error handling.
+- Budgeting, bidding, pixel tracking, and full campaign setup are intentionally excluded.
+
+These decisions were made to prioritize clarity, correctness, and reasoning, as emphasized in the assignment instructions.
+
+
+## Conclusion
+
+This project demonstrates a production-style frontend implementation of a TikTok Ads creative setup flow within the constraints of a frontend-only assignment.
+
+The focus was placed on:
+- Correct OAuth flow handling
+- Robust validation and conditional logic
+- Clear and user-friendly error communication
+- Thoughtful handling of real-world edge cases
+
+By intentionally mocking APIs and OAuth behavior, the project highlights frontend decision-making, UX clarity, and error resilience, which were the primary goals of the assignment.
+
+With additional time and backend support, this implementation could be extended to integrate real TikTok Ads APIs, media uploads, and full campaign management features.
 
